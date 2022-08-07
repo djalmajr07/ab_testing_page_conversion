@@ -4,7 +4,7 @@ Test A/B for Electronic House web page.
 ![image](https://user-images.githubusercontent.com/85264359/183304111-7d3a1138-dccf-490c-8e63-6446132121b1.png)
 
 
-# 1. Business Case.
+# 1. Business Case
 
 Electronic House is an online commerce (e-commerce) of computer products for homes and offices. Customers can buy mice, monitors, keyboards, computers, laptops, HDMI cables, headphones, webcam cameras, among others, through an online website and receive the products in the comfort of their homes. 
 
@@ -13,7 +13,7 @@ The product manager's goal is to increase the conversion rate by 2%, that is, th
 
 The bluetooth keyboard has a sale price of R$ 4,500.00 in cash or in installments at 12% without interest on the credit card. Before switching from the old sales page to the new one, the product manager would like to test the effectiveness of the new page on a smaller group of customers, in order to take less risk of falling conversion if the new page shows a worse conversion than the current page.
 
-# 2. Business Problem.
+# 2. Business Problem
 I have been hired as a freelancer by Electronic House to help the Designers of the new page, to validate its effectiveness in a safer way, with more confidence and rigidity in the analysis. The deliverables of your work are as follows:
 
 a. New page conversion is actually better than page conversion current?
