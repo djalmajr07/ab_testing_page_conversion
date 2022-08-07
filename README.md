@@ -131,11 +131,48 @@ My strategy to solve this challenge was:
 ![image](https://user-images.githubusercontent.com/85264359/183305547-44b949e6-02bf-4919-b0cf-2f6b5a32c99a.png)
 
 
-# 5. Machine Learning Model Applied
+# 5. 3.1 Hypotheses Formulation
 
-# 6. Machine Learning Modelo Performance
+- H0: The current convertion rate is better than the new page convertion rate.
+- H1: The new page convertion overcomes the current page convertion rate.
+
+
+       confidence_level=0.95
+       significance_level=0.05
+
+       # page conversions 
+       p1=0.13
+       p2=0.15
+       effect_size=sms.proportion_effectsize(p1, p2)
+       statistical_power=0.80
+
+       # sample size
+       sample_n=sms.NormalIndPower().solve_power(effect_size, power=statistical_power, alpha=significance_level)
+       sample_n=math.ceil(sample_n)
+       sample_n = 4720
+
+# 6. Conversion Rate
+![image](https://user-images.githubusercontent.com/85264359/183305911-461b8706-d8dd-4371-93eb-770122f377a3.png)
+
 
 # 7. Business Results
+       df_table=df_ab[['group', 'converted']].groupby('group').agg({'converted':['sum', 'count']})
+       df_table.columns=['converted','not_converted']
+       df_table.head().reset_index()
+
+
+       chi_val, pval_chi, dof, expected = chi2_contingency(df_table)
+
+       print(chi_val.round(2))
+       print(pval_chi.round(2))
+
+
+       if pval_chi < 0.05:
+           print('There is evidences to reject null hypothesis and assume the alternative - there is effect')
+       else:
+           print('There is no evidence to reject the hypothesis - no effect')
+           
+* There is no evidence to reject the hypothesis - no effect
 
 # 8. Conclusions
 
