@@ -175,13 +175,18 @@ My strategy to solve this challenge was:
 * There is no evidence to reject the hypothesis - no effect
 
 # 8. Conclusions
+In this project I did not have enough statistical evidence to conclude that the treatment page have a greater performance in converte the clients. Even though I went further with a simulation that considered the success of the new page and my Gross Margin Value(buyers * product) was $193.563.000 while the old page GMV was 167.760.000. The absolute lift is: 25.803.000 and The expected lift for the new page is: 15.38%.
 
 # 9.Technologies
+- Jupyter;
+- Python.
 
 # 10. Lessons Learned
+- Aplication of statistical methods like chi-squared
+- create the premises of testing and analyses, collect data and validate the results, with the aim of conclude the success or failure of the experiment.
 
 # 11. Next Steps to Improve
-
+- Work with the team to gather more information and redo the test to check whether the page is actually good or not.
 
 # Author
 
