@@ -59,13 +59,13 @@ My strategy to solve this challenge was:
        XII. Deliver the result (see Output)
 
 ## `Step 02. Solution planning`
-* Step 01: Choosing the method
+Step 01: Choosing the method
 * 1.1. Statistical hypothesis testing
   - Statistical inference method used to decide whether the data available are sufficient to support a particular hypothesis.
 * 1.2. A/B testing
   - User experience research methodology that applies statistical hypothesis testing to compare two or more versions of a single variable to determine which of the two variants is more effective.
  
-* Step 02: Experiment Design
+Step 02: Experiment Design
 * 2.1. Formulation of hypotheses:
   - Definition of the null hypothesis
   - Definition of alternative hypotheses
@@ -80,7 +80,7 @@ My strategy to solve this challenge was:
   - Separation of the treatment group.
   - Definition of the sample size of each group.
 
-* Step 03: Collecting and preparing the data
+Step 03: Collecting and preparing the data
 * 3.1. Data collection:
    - Definition of the data collection and storage structure.
    - Creation of the A/B Flag.
@@ -94,7 +94,7 @@ My strategy to solve this challenge was:
   - Calculation of the control group conversion.
   - Calculation of treatment group conversion.
 
-* Step 04: Testing the Hypotheses
+Step 04: Testing the Hypotheses
 * 4.1. Definition of the statistical inference method
   - t-test
   - ANOVA
@@ -102,7 +102,7 @@ My strategy to solve this challenge was:
   
 * 4.2. Calculation of p-value
 
-* Step 05: Drawing conclusions
+Step 05: Drawing conclusions
   - Interpretation of p-value.
   - Validation of initial hypotheses.
   - Conclusion.
